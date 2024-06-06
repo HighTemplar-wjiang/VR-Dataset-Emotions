@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inducing Emotions in Virtual Reality Study</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center; /* Align items to the top */
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            display: inline-block;
+            background-color: #3498db;
+            border-radius: 50%;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .icon::before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .icon.survey::before {
+            content: "Q";
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .icon.install::before {
+            content: "⬇";
+            font-size: 24px;
+        }
+
+        .icon.vr::before {
+            content: "VR";
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .icon.post-survey::before {
+            content: "✔";
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .highlight {
+            background-color: #3498db;  /* Blue background */
+            color: white;               /* White text */
+            padding: 2px 5px;           /* Some padding for spacing */
+            border-radius: 3px;         /* Rounded corners */
+            font-weight: bold;          /* Bold text */
+        }
+
+        .label-container {
+            display: flex;
+            justify-content: center; /* Center the labels horizontally */
+            gap: 10px; /* Space between the labels */
+            margin-bottom: 20px; /* Space below the labels */
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inducing Emotions in Virtual Reality</h1>
+        <div class="label-container">
+            <span class="highlight">VR</span>
+            <span class="highlight">60 mins</span>
+            <span class="highlight">Install app</span>
+        </div>
+        <p>
+            Dive into a unique experience where virtual reality meets emotions. In this study, we invite you to immerse yourself in various VR scenes crafted to evoke a spectrum of emotions. The entire process will take <strong>up to 60 minutes</strong>.
+        </p>
+        <p>
+            <strong>Requirements:</strong> You should own or have access to a <span class="highlight">Meta Quest 2</span> VR device.
+        </p>
+        <p>Here's what you'll be doing:</p>
+            <ul>
+                <li><span class="icon survey"></span> Complete a brief pre-study survey (~5 min).</li>
+                <li><span class="icon install"></span> Install our VR app using SideQuest (Experienced: ~5 min | Beginners: ~20 min).</li>
+                <li><span class="icon vr"></span> Engage with the VR app & complete the survey (~15 min).</li>
+                <li><span class="icon post-survey"></span> Finish a post-study survey (~10 min).</li>
+            </ul>
+        <p>
+            Ready to be a part of this exciting journey? <a href="https://www.prolific.co/search?q=Inducing%20Emotions%20in%20Virtual%20Reality" target="_blank">Sign up for our study on Prolific</a>.
+        </p>
+    </div>
+</body>
+</html>
