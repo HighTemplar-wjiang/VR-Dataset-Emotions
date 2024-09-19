@@ -85,5 +85,18 @@ For detailed data recording structure, please refer to the `server/emotion_app/m
 ## Citation
 If you find this dataset useful, please cite our paper:
 ```
-(To be udpated)
+@ARTICLE{jiang2024immersive,
+    author = {Weiwei Jiang and Maximiliane Windl and Benjamin Tag and Zhanna Sarsenbayeva and Sven Mayer},
+    journal = {IEEE Transactions on Visualization &amp; Computer Graphics},
+    title = {An Immersive and Interactive VR Dataset to Elicit Emotions},
+    year = {2024},
+    volume = {},
+    number = {01},
+    issn = {1941-0506},
+    pages = {1-11},
+    doi = {10.1109/TVCG.2024.3456202},
+    publisher = {IEEE Computer Society},
+    address = {Los Alamitos, CA, USA},
+    month = {sep}
+}
 ```
